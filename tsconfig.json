@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "strict": true,
+    "target": "ES2021",
+    "lib": ["dom", "ES2021"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["./node_modules/@types", "./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
